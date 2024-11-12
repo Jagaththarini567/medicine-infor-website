@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEDINFO | Medicine Information</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <!-- Link to external CSS file -->
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="nav">
+      <div class="nav-logo">
+        <p>MEDINFO</p>
+      </div>
+      <div class="nav-menu" id="navMenu">
+        <ul>
+          <li>
+            <a href="#" class="link" onclick="showForm('login')">Login</a>
+          </li>
+          <li>
+            <a href="#" class="link" onclick="showForm('register')">Sign Up</a>
+          </li>
+          <li><a href="#" class="link" onclick="showHome()">Home</a></li>
+          <li>
+            <a href="#" class="link" onclick="showServices()">Services</a>
+          </li>
+          <li><a href="#" class="link" onclick="showAbout()">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section with Search Bar -->
+    <div class="wrapper active" id="home">
+      <div class="search-bar">
+        <input
+          type="text"
+          id="medicineSearch"
+          placeholder="Search for a medicine..."
+        />
+        <button onclick="searchMedicine()">Search</button>
+      </div>
+      <div id="medicineInfo"></div>
+    </div>
+
+    <!-- Login Form -->
+    <div class="form-box" id="login">
+      <header>Login</header>
+      <div class="input-box">
+        <input type="text" placeholder="Username" />
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Password" />
+      </div>
+      <button class="submit">Sign In</button>
+    </div>
+
+    <!-- Registration Form -->
+    <div class="form-box" id="register">
+      <header>Sign Up</header>
+      <div class="input-box">
+        <input type="text" placeholder="Firstname" />
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Lastname" />
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Email" />
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Password" />
+      </div>
+      <button class="submit">Register</button>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+      <h2>Our Services</h2>
+      <div class="services-container">
+        <div class="service-item">
+          <i class="bx bx-search"></i>
+          <h3>Medicine Search</h3>
+          <p>
+            Search for detailed information on various medicines, including
+            uses, dosage, and side effects.
+          </p>
+        </div>
+        <div class="service-item">
+          <i class="bx bx-info-circle"></i>
+          <h3>Health Information</h3>
+          <p>
+            Get expert advice and reliable health information to stay informed
+            about medication and wellness.
+          </p>
+        </div>
+        <div class="service-item">
+          <i class="bx bx-clipboard"></i>
+          <h3>Prescription Assistance</h3>
+          <p>
+            Receive personalized help with understanding prescriptions and
+            medication recommendations from professionals.
+          </p>
+        </div>
+        <div class="service-item">
+          <i class="bx bx-chat"></i>
+          <h3>Live Consultations</h3>
+          <p>
+            Consult with health professionals in real time to get answers to
+            your medication and health-related queries.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <h2>About MEDINFO</h2>
+      <p>
+        MEDINFO provides comprehensive information on various medications...
+      </p>
+      <!-- Add additional description as needed -->
+    </section>
+
+    <script src="indd.js"></script>
+    <!-- Link to external JavaScript file -->
+  </body>
+</html>

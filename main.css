@@ -1,0 +1,269 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation Bar */
+  .nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+  }
+  
+  .nav-logo p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-menu ul li {
+    margin-right: 20px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu a:hover {
+    color: #4CAF50;
+  }
+  
+  /* Home Section */
+  .wrapper {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Services Section */
+  .services-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .service-item i {
+    font-size: 40px;
+    color: #4CAF50;
+    margin-bottom: 15px;
+  }
+  
+  .service-item h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .service-item p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Form Styles */
+  .form-box {
+    display: none;
+    padding: 30px;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-box header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: #45a049;
+  }
+  
+  /* About Section */
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .about-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 16px;
+    color: #555;
+  }
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation Bar */
+  .nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+  }
+  
+  .nav-logo p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-menu ul li {
+    margin-right: 20px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu a:hover {
+    color: #4CAF50;
+  }
+  
+  /* Form Styles */
+  .form-box {
+    display: none;
+    padding: 30px;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-box header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: #45a049;
+  }
+  
+  /* Home Section */
+  .wrapper {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16
+  }
